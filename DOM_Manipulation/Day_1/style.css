@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ---------------- */
+#box{
+    height: 200px;
+    width: 250px;
+    background-color: crimson;
+}
+
+/* button{
+    color: black;
+    margin: 10px;
+    padding: 10px 10px;
+} */
+
+button:active{
+    scale: 0.85;
+}
+/* ------------------------- */
+
+.card{
+    padding: 10px 20px;
+    background-color: wheat;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+h3{
+    color: red;
+}
+
+button{
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin: 10px;
+}
